@@ -1,0 +1,22 @@
+.player-body{
+    display: flex;
+    flex: 0.85;
+    width: 100dvw;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.footer-body{
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    flex: 0.15;
+    position: fixed;
+}
+.player-page{
+    background-color: black;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

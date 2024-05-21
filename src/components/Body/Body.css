@@ -1,0 +1,51 @@
+.body{
+    height: calc(100vh - 120px);
+    box-sizing: border-box;
+    flex: 0.75;
+    background: linear-gradient( rgb(113, 1, 147) , #141418);
+    border-radius: 10px;
+    color: white;
+    overflow: auto;
+}
+
+.playlist-header{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+.playlist-header h1{
+    font-size: 100px;
+}
+.playlist-header p{
+    font-size: small;
+    color: gainsboro;
+}
+.playlist-header img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+}
+.owner{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.songs-box{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.title{
+    display: flex;
+    gap: 20px;
+    padding: 10px 50px;
+}
+.title p{
+    flex: 0.5;
+    font-size: 14px;
+    font-family: cursive;
+    color: gainsboro;
+}
+

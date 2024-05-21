@@ -1,0 +1,58 @@
+.track{
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 5px;
+    gap: 20px;
+}
+.track-name, .artists-name , .album p{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.name-img > p{
+    font-size: 14px;
+}
+.album{
+    flex: 0.5;
+    min-width: 180px;
+}
+.artists-name{
+    font-size: 11px;
+}
+.album p{
+    font-size: small;
+    color: gainsboro;
+}
+.name-img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex: 0.5;
+    min-width: 300px;
+}
+.active{
+    color: #1db954;
+}
+.track :hover{
+    color: #1db954;
+}
+.name-img img {
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+}
+.index{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 35px;
+    height: 100%;
+    color: gainsboro;
+}

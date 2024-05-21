@@ -1,0 +1,26 @@
+.wrapper{
+    height: 100dvh;
+    width: 100dvw;
+    background-color: black;
+}
+.login{
+    max-width: 800px;
+    margin:auto;
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+
+
+}.login img{
+    min-width: 300px;
+    width: 100%;
+}
+.login a{
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    background-color: #1db954;
+    cursor: pointer;
+    text-decoration: none;
+}

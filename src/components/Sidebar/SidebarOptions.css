@@ -1,0 +1,19 @@
+.options{
+    margin: 10px 0;
+    color: rgb(144, 144, 144);
+    cursor: pointer;
+    height: 40px;
+    transition:  180ms color ease-in ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.options:hover{
+    color: white;
+}
+
+.options > img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
